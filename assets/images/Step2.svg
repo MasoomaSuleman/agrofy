@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="245" height="64" viewBox="0 0 245 64">
+  <g id="Group_3" data-name="Group 3" transform="translate(-67 -82)">
+    <circle id="Ellipse_458" data-name="Ellipse 458" cx="18" cy="18" r="18" transform="translate(68 82)" fill="#d42917"/>
+    <circle id="Ellipse_459" data-name="Ellipse 459" cx="18" cy="18" r="18" transform="translate(271 82)" fill="#d42917"/>
+    <text id="Step_1" data-name="Step 1" transform="translate(67 141)" fill="#d42917" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Step 1</tspan></text>
+    <text id="Step_2" data-name="Step 2" transform="translate(268 141)" fill="#d42917" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Step 2</tspan></text>
+    <line id="Line_274" data-name="Line 274" x2="168" transform="translate(103.5 100.5)" fill="none" stroke="#d42917" stroke-linecap="round" stroke-width="1" stroke-dasharray="5" opacity="0.23"/>
+    <line id="Line_275" data-name="Line 275" x2="168" transform="translate(103.5 100.5)" fill="none" stroke="#d42917" stroke-linecap="round" stroke-width="1"/>
+    <path id="ic_spellcheck_24px" d="M23.7,11.59l-9.389,9.389-4.259-4.271L8.42,18.345l5.907,5.907L25.341,13.226Z" transform="translate(69.369 82.124)" fill="#fff"/>
+    <path id="ic_spellcheck_24px-2" data-name="ic_spellcheck_24px" d="M23.7,11.59l-9.389,9.389-4.259-4.271L8.42,18.345l5.907,5.907L25.341,13.226Z" transform="translate(272.369 82.124)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "652740590584",
+    "project_id": "agrofy-cd658",
+    "storage_bucket": "agrofy-cd658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652740590584:android:b5198181bad2633f26b40d",
+        "android_client_info": {
+          "package_name": "com.example.kisaanCorner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652740590584-247gc3cv7qaqmsaqo7n3hv5b1qqtukd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kisaanCorner",
+            "certificate_hash": "0f01647c85f8cf8d4a7e5823d19875d70f224c9a"
+          }
+        },
+        {
+          "client_id": "652740590584-um2t33h2l99d1n3kcrikhtcvidb5715t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUmAxUoe5HDQ_R_Eqb8p3kxfiW3Jv4CfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652740590584-um2t33h2l99d1n3kcrikhtcvidb5715t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
