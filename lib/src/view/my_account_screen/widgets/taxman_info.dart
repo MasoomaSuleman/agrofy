@@ -41,9 +41,9 @@ class TaxmanInfo extends StatelessWidget {
                   width: 10,
                 ),
                 InkWell(
-                  child: SvgPicture.asset(
+                  child: SvgPicture.asset(  
                     'assets/images/my_account_page_icons/twitter_logo.svg',
-                    width: 30,
+                    width: 30, 
                     height: 30,
                   ),
                   onTap: () {

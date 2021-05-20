@@ -330,11 +330,221 @@ class _HomeMainScreenState extends State<HomeMainScreen>
     return Scaffold(
       backgroundColor: Color(0xfff8f8f8),
       appBar: _kAppBar,
-      body:
+      body:SingleChildScrollView(
+      physics: ScrollPhysics(),
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("Check current condition of your field",style: TextStyle(
+              fontSize: 14
+            )),
+          ),
+          Card(
+                elevation: 8,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                ),
+                child: Column(
+
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+
+                          Row(
+                            children: <Widget>[
+                              Image.asset(
+                                "assets/images/temperature.png",
+                                height: 25,
+                                width: 25,
+                              ),
+                              SizedBox(width: 10),
+                              Text(
+                                "Temperature",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Text(
+                            "Critical",
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.red,
+                            ),
+                          ),
+          //
+                        ],
+                      ),
+                    ),
+
+         
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 150,
+                      child: Text(
+                        "29 C",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.red ,
+                          fontSize: 100,
+                          fontWeight: FontWeight.w200,
+                        ),
+                      ),
+        
+                    ),
+
+
+                  ],
+                ),
+              ),
+          Card(
+                elevation: 8,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                ),
+                child: Column(
+
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+
+                          Row(
+                            children: <Widget>[
+                              Image.asset(
+                                "assets/images/humidity.png",
+                                height: 25,
+                                width: 25,
+                              ),
+                              SizedBox(width: 10),
+                              Text(
+                                "Humidity",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Text(
+                            "Normal",
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.lightBlue,
+                            ),
+                          ),
+          //
+                        ],
+                      ),
+                    ),
+
+         
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 150,
+                      child: Text(
+                        "56",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.lightBlueAccent ,
+                          fontSize: 100,
+                          fontWeight: FontWeight.w200,
+                        ),
+                      ),
+        
+                    ),
+
+
+                  ],
+                ),
+              ),
+          Card(
+                elevation: 8,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                ),
+                child: Column(
+
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+
+                          Row(
+                            children: <Widget>[
+                              Image.asset(
+                                "assets/images/drip.png",
+                                height: 25,
+                                width: 25,
+                              ),
+                              SizedBox(width: 10),
+                              Text(
+                                "Moisture",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          Text(
+                            "Critically low",
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.red,
+                            ),
+                          ),
+          //
+                        ],
+                      ),
+                    ),
+
+         
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 150,
+                      child: Text(
+                        "0 %",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.blueAccent,
+                          fontSize: 100,
+                          fontWeight: FontWeight.w200,
+                        ),
+                      ),
+        
+                    ),
+
+
+                  ],
+                ),
+              )
+        ],
+      )
+      ),
           /*SingleChildScrollView(
         physics: ScrollPhysics(),
         child:*/
-          DefaultTabController(
+        /*  DefaultTabController(
               length: 4,
               child: Column(
                 children: [
@@ -648,8 +858,9 @@ class _HomeMainScreenState extends State<HomeMainScreen>
                   )),
                   // AskAQuestion(_size),
                 ],
-              )),
+              )),*/
       // ),
+      
       floatingActionButton: FloatingActionButton(
         elevation: 0.0,
         backgroundColor: Colors.lightGreen[900],
